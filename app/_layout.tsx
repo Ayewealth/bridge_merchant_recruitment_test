@@ -7,8 +7,8 @@ import { useEffect } from 'react';
 
 import ReduxProvider from '~/redux/redux-provider';
 
-const queryClient = new QueryClient();
 SplashScreen.preventAutoHideAsync();
+const queryClient = new QueryClient();
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
