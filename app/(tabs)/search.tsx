@@ -116,7 +116,7 @@ export default function Search() {
             )}
           />
         </View>
-        <View>
+        <View style={{ justifyContent: 'center', alignContent: 'center' }}>
           <Text style={{ fontFamily: 'gilroyBold', flex: 1 }} className="text-2xl">
             Products
           </Text>
